@@ -12,6 +12,8 @@ namespace ProjectSundayConsole
         {
             Console.WriteLine("Hallo, I have been modified after first checkin!");
 
+            Console.Read();
+
             int x = 10 / 2;
 
             Console.WriteLine("Hallo, I have been modified after first checkin!" + x);
@@ -22,7 +24,10 @@ namespace ProjectSundayConsole
 
             Console.WriteLine("Hallo, I have been modified after first checkin!");
 
-            Console.Read();
+            x = 10 / 2;
+
+            Console.WriteLine("Hallo, I have been modified after first checkin!");
+            Console.WriteLine("Hallo, I have been modified after first checkin!");
         }
     }
 }
