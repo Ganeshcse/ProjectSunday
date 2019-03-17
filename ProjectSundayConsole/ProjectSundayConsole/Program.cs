@@ -12,7 +12,7 @@ namespace ProjectSundayConsole
         {
             Console.WriteLine("Hallo, I have been modified after first checkin!");
 
-            Console.ReadLine();
+            
         }
     }
 }
