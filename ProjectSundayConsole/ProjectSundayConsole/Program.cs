@@ -10,6 +10,7 @@ namespace ProjectSundayConsole
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hallo, I have been modified after first checkin!");
         }
     }
 }
