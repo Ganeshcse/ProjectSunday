@@ -10,11 +10,13 @@ namespace ProjectSundayConsole
     {
         static void Main(string[] args)
         {
-            Console.Read();
-            Console.WriteLine("Hallo, I have been modified after first checkin!");
-            int x = 20;
-            object obj = x;
-            Console.WriteLine(obj.ToString());
+            string name;
+            Console.WriteLine("Please enter your name");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Entered value is " + name);
+
+            Console.ReadLine();
         }
     }
 }
